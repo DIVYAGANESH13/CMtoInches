@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="new.css">
+</head>
+<body>
+    <h1>Conversion of CM to Inches</h1>
+    <div class="cont">
+    
+    
+        <div class="main">
+        <label for="name">Enter the value in Centimeter</label>
+    </div><br>
+    <div class="container">
+        <input type="text" id="name" ><br>
+    </div>
+    <div class="but">
+        <button class="button"  type="submit" onclick="convertToInches()">Submit</button>
+        <h3 id="p"></h3>
+    </div>
+    </div>
+    <div class="logic">
+       
+       
+        <pre>
+
+            The logic behind centimeters (cm) to inches conversion is based on a fixed ratio:
+            <h4>Conversion Factor:
+     1 inch = 2.54 centimeters</h4> 
+            This means that 1 inch is equal to 2.54 centimeters.
+             To convert from centimeters to inches, you need to divide the number of centimeters by 2.54.       
+            <h4>Formula:
+         Inches =Centimeters/2.54
+             </h4>
+            ​
+            </pre>
+    </div>
+</body>
+<script>
+    function convertToInches() {
+        let cm = document.getElementById('name').value;
+        let inches = cm / 2.54;
+         let result=document.getElementById('p').innerHTML ="The value in inches is: "+ inches;
+    }
+</script>
+</html>

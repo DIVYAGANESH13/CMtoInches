@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background-image: url(czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0zNzNiYXRjaDEzLTA4Mi1rcHhrOW5nay5qcGc.webp);
+    background-size: cover;
+    background-color: #07074E;
+}
+h1{
+    text-align: center;
+    color: yellow;
+    font-size: 50px;
+    margin-top: 30px;
+
+    
+}
+.cont{
+    
+    width: 50%;
+    height: 50vh;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.main{
+    
+    padding-left: 50px ;
+    padding-top:10px ;
+    text-align: center;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: aliceblue;
+    flex-wrap: wrap;
+    font-weight: bold;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+input[type="text"]{
+    width: 50%;
+    height: 40px;
+    border-radius: 5px;
+    border:2px solid black;
+    font-size: 20px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.but {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.button {
+    width: 40%;
+    height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 5px;
+    background-color: white;
+    transition: 0.3s ease;
+}
+#p{
+    padding-top: 20px;
+    color: yellow;
+    text-align: center;
+}
+    
+
+.button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.logic{
+    position: absolute;
+    width: 100%;
+    top:80%;
+    left:50%;
+    right: 50%;
+    transform: translate(-50%,-50%);
+    padding-top: 40px;
+    margin-top: 100px;
+
+}
+h4{
+    font-size: larger;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color:yellow;
+}
+pre{
+    font-size: larger;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color:white;
+text-wrap: wrap;}
